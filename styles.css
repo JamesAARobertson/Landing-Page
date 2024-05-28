@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
@@ -60,8 +60,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 90px;
-
+  padding: 90px 120px;
+  gap: 32px;
 }
 
 .information-header {
@@ -71,14 +71,13 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
-  
 }
 
 .cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
 }
 
 .card {
@@ -87,11 +86,12 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-} 
+  width: 150px;
+}
 
 .quote {
   background-color: #e5e7eb;
-  padding: 90px;
+  padding: 90px 180px;
 }
 
 .quote-text {
@@ -104,17 +104,47 @@ button {
   display: flex;
   flex: 1;
   justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 32px;
 }
 
 .information {
-    padding: 45px;
+  padding: 45px;
 }
 
 .action {
-    padding: 90px;
+  padding: 90px 120px;
 }
 
 .info-img {
   border-radius: 8px;
-  border: solid #3882F6 4px;
+  border: solid #3882f6 4px;
+}
+
+.author {
+  font-weight: bold;
+  text-align: end;
+  padding: 0px 90px;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 16px;
+  padding: 16px;
+  height: 100px;
+  color: white;
+}
+
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-btn {
+  border: solid white 2px;
+
 }
